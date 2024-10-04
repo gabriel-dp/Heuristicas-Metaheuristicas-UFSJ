@@ -1,0 +1,12 @@
+# excludes no-extension executable files (Linux)
+*
+!/**/
+!*.*
+!Makefile
+!LICENSE
+
+# excludes ".exe" executable files (Windows)
+*.exe
+
+# exludes compilation object files
+*.o
